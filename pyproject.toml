@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "алексей-харитонов-дз-6-1"
+version = "0.1.0"
+description = ""
+authors = ["HAN <han82@mail.ru>"]
+readme = "README.md"
+packages = [{include = "алексей_харитонов_дз_6"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
